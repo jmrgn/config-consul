@@ -1,0 +1,5 @@
+curl -X PUT -d 'test1' http://localhost:8500/v1/kv/web/consultest1 | python -m json.tool
+
+curl -X PUT -d 'test2' http://localhost:8500/v1/kv/web/consultest2?flags=1 | python -m json.tool
+
+curl -X PUT -d 'test3' http://localhost:8500/v1/kv/web/child/consultest3/?flags=2 | python -m json.tool

@@ -1,0 +1,3 @@
+curl -X DELETE http://localhost:8500/v1/kv/web/child/consultest3
+
+curl -X DELETE http://localhost:8500/v1/kv/web/?recurse
